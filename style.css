@@ -1,0 +1,220 @@
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color:#F9FAFB;
+    }
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Top Banner */
+.top-banner {
+  background-color: #1e3a8a; /* Blue */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.top-banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.top-banner p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Navigation Links */
+.nav-links {
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a {
+  color: #1e3a8a;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb; /* Lighter blue on hover */
+}
+
+
+    /* Main Card */
+    .card {
+      background-color: white;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 30px 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .action-btn {
+      padding: 20px 10px;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .action-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Specific Button Colors */
+    .btn-brown       { background-color: #5D4037; }
+    .btn-navy        { background-color: #2979FF; }
+    .btn-purple      { background-color: #4A148C; }
+    .btn-green       { background-color: #2E7D32; }
+    .btn-red         { background-color: #D32F2F; }
+    .btn-pink        { background-color: #E91E63; }
+    .btn-black       { background-color: #fb8c00; }
+    .btn-electric    { background-color: #2979FF; }
+
+     /* About Section start */
+    
+
+    .home-section {
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .job-button {
+      flex: 1 1 calc(25% - 40px);
+      min-width: 220px;
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+
+   
+    @media (max-width: 768px) {
+      .job-button {
+        flex: 1 1 calc(50% - 40px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .job-button {
+        flex: 1 1 100%;
+      }
+    }
+
+    /* Home Section end */
+
+    /* Home Section */
+
+    .home-section {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .box {
+      border: 2px solid #000;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .box-header {
+      background-color: #1E3A8A; /* Dark Olive Green */
+      color:  #FFFFFF;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    .box-content {
+      padding: 15px;
+    }
+
+    .box-content p {
+      margin: 10px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #ccc;
+      color: #000;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .home {
+        flex-direction: column;
+      }
+
+      .nav-links {
+        gap: 20px;
+        font-size: 14px;
+      }
+
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 20px;
+      }
+
+      .nav-links {
+        margin-top: 10px;
+        flex-wrap: wrap;
+      }
+    }
+     .my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .my-button:hover {
+    background-color: #0056b3;
+  }
+
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
